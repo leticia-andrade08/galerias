@@ -1,0 +1,88 @@
+.conteiner {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(imagens/fundo.avif);
+}
+
+.conteiner>div {
+    background-position: center;
+    background-size: cover;
+    border: 5px;
+    height: 150px;
+    width: 130px;
+    border: white solid 1px;
+    border-width: 20px 30px 50px 30px;
+}
+
+
+.div1 {
+    background-image: url(imagens/photo1.avif);
+    grid-area: 2 / 2 / 4 / 3;
+    transform: rotate(10deg);
+}
+
+.div1:hover {
+    transform: rotate(-30deg);
+    transform: scale(1.2);
+}
+
+
+.div2 {
+    background-image: url(imagens/photo\ 2.avif);
+    grid-area: 4 / 3 / 6 / 4;
+    transform: rotate(-10deg);
+}
+
+.div2:hover {
+    transform: rotate(-30deg);
+    transform: scale(1.2);
+}
+
+.div3 {
+    background-image: url(imagens/photo\ 3.avif);
+    grid-area: 2 / 4 / 4 / 5;
+    transform: rotate(15deg);
+}
+
+.div3:hover {
+    transform: rotate(-30deg);
+    transform: scale(1.2);
+}
+
+.div4 {
+    background-image: url(imagens/photo\ 4.avif);
+    grid-area: 4 / 5 / 6 / 6;
+    transform: rotate(-10deg);
+}
+
+.div4:hover {
+    transform: rotate(-30deg);
+    transform: scale(1.2);
+}
+
+.div5 {
+    background-image: url(imagens/photo\ 5.avif);
+    grid-area: 2 / 6 / 4 / 7;
+    transform: rotate(10deg);
+}
+
+.div5:hover {
+    transform: rotate(-30deg);
+    transform: scale(1.2);
+}
+
+.div6 {
+    background-image: url(imagens/photo\ 6.avif);
+    grid-area: 4 / 7 / 6 / 8;
+    transform: rotate(-10deg);
+}
+
+.div6:hover {
+    transform: rotate(-30deg);
+    transform: scale(1.2);
+}
